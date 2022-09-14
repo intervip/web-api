@@ -1,11 +1,9 @@
-[![Nightly Build](https://dev.azure.com/BrunoBlanes/Intervip%20WebApi/_apis/build/status/intervip.web-api?branchName=main)](https://dev.azure.com/BrunoBlanes/Intervip%20WebApi/_build/latest?definitionId=24&branchName=main)
-![Code Coverage](https://img.shields.io/azure-devops/coverage/BrunoBlanes/Intervip%2520WebApi/24)
+![Azure DevOps builds (branch)](https://img.shields.io/azure-devops/build/BrunoBlanes/Intervip%2520WebAPI/25/main)
+![Azure DevOps coverage (branch)](https://img.shields.io/azure-devops/coverage/BrunoBlanes/Intervip%2520WebAPI/25/main)
+![Azure DevOps tests (compact)](https://img.shields.io/azure-devops/tests/BrunoBlanes/Intervip%2520WebAPI/25/main?compact_message)
 
 # Intervip Web API
-A Web API for the Intranet WebAssembly and future clients.
+A Web API.
 
 ## Get Started
-Before running this application you must set the connection strings for the databases:
-```
-dotnet user-secrets set "INTERVIP_CONNECTION" "{database_connection_string}"
-```
+Before running this application you must set the `INTERVIP_CONNECTION` connection string for the database as an environment variable.
